@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--Type de language Html 5-->
+<html lang="fr">
+<head>
+        <!--entête de la page qui s'affiche pour les recherches-->
+    <meta charset="UTF-8"/>
+        <!--language utf-8 type d'encodage-->
+    <title>Mon premier site</title>
+</head>
+
+<body>
+    <p>
+            Test de l'ancre : aller directement au test <br/>
+             <a href="#test"> Accès test ancre</a> <br/>
+        </p>
+       <!--Corps de la page -->
+    <h1>Titre de grande taille</h1>
+    <h2>Titre de plus petite taille</h2>
+    <h6>Titre le plus petit</h6>
+    <p>Premières heures de codage. Apprentisage du Html en Premier 
+        lieu. <b> Ensuite insertion du Break afin de revenir à la 
+        ligne sans devoir relancer un paragraphe    </p>   
+
+        <p>Pourquoi essayer ici ? Simplement que le web est un endroit<br/>
+        Génial</p>
+
+        <p>Environ 30min, Depuis le début donc apréhension totale et 
+            un engouement énorme <br/> 
+            <em>Soyez indulgents </em>
+            <!--Em = mettre en valeur en italique-->
+        </p>
+
+        <p> Par contre,<strong>TOUTES</strong> remarques sont bonnes à prendre 
+        du principe quelles soient argumentées </p>
+            <!--La balise strong permet de mêttre en valeur en fort-->
+
+        <p> Dans la continuité, nous allons tester le <mark>MARK</mark> afin de <br/>
+        marquer le coup</p>
+
+        <ul>
+            <li>cheval  </li>
+        <li>Chien </li>
+        <li>Zebre</li>
+        </ul>
+    
+        <br/> espace
+        <br/> espace
+        <br/> espacce
+        <br/> esapccccceee
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/> espacccccccccceeee
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        
+        <ol>
+            <li>Cheval</li>
+            <Li>Chien</Li>
+            <li>Zebre</li>
+        </ol>
+        <!-- Ul -non ordonné // Ol - ordoné-->
+
+        <p>Pour la suite, nous allons commencer a imaginer le site pour un Youtuber. <br/>
+        Preparez-vous à être épater par <a href="https://www.lordchow.fr/">Chowh1 </a></p>
+            <!--balise <a> incluant l'attribut href="" -->
+        
+        Nous continuons avec la page 2 qui correspond à la page video que vous retrouverez dans cette suite <br/>
+        <a href="page2.html.html">La page video</a> <br/>
+                <!-- Lien relatif = lien non hébergé mais étant dans un même dossier. Ne pas oublier toutes les structures -->
+        
+        <p> Continuons sur le lien relatif mais qui ne se situe pas dans le même dossier. <br/>
+        Nous allons donc effectuer la même chose en rajoutant l'itinéraire du PC : 
+        <a href="contenup3/page3.html"> La page 3</a></p>
+                <!--Indiquer le dossier dans lequel se situe le fichier puis /-->
+
+        
+
+       <p>Test dossier parent : <a href="../dossierparent.html">Dossier parent </a></p>         
+        
+
+
+       <h2 id="test"> Test de l'ancre de page</h2>
+            <!-- Ancre nous rendant directement a un endroit sur la même page. -->
+
+       <p> Test ancre sur une page qui se situe dans un dossier parent <br/>
+           <a href="../dossierparent.html#testancre">Test ancre autre dossier</a>
+       </p>
+
+       <p>Test du title sur un lien . Reprenons les mêmes liens et c'est parti !! <br/>
+        Preparez-vous à être épater par <a href="https://www.lordchow.fr/" title="Ultra !!!!!!!">Chowh1 </a> </p>
+            <!--Title agit comme une petite bulle type commentaire en pointant le lien de la souris -->
+            Preparez-vous à être épater par <a href="https://www.lordchow.fr/" title="Ultra !!!!!!!" target="_blank">Chowh1 </a> </p>
+            <!-- ajout de target="_blank" qui permet de forcer une ouverture d'une nouvelle fenetre-->
+
+        <p>Test du lien d'envoi de mail <br/>
+        <a href="mailto:eulbucheron59@gmail.Com"> Envoi moi un mail pour jouer à Warzone !!!</a></p>
+            <!--envoie de mail via mailto: suivi du mail-->
+        
+        <p> Test de téléchargement : <br/>
+        <a href="../Microsoft VS Code.zip"> Lien vers config a dl</a></p>
+
+        <p>Insertion d'image  <br/>
+         <img src="../testimage.jpg" alt=" Photo de paint" /> </p>
+</body>
+
+        
+</html>
